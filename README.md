@@ -1,24 +1,43 @@
-# README
+# String Calculator – TDD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a **String Calculator** built using **Ruby** following the principles of **Test-Driven Development (TDD)**.  
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 🧪 Requirements
 
-* System dependencies
+- **Ruby version**: 3.1.0 (or latest stable)
+- **Bundler**: 2.x
+- No database or web server dependencies
 
-* Configuration
+---
 
-* Database creation
+## 📦 Setup Instructions
 
-* Database initialization
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/kajal2399/string_calc.git
+   cd string_calc
 
-* How to run the test suite
+2. **Install dependencies
+    ```bash
+    bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+3. **Run the tests
+    ```bash
+    bundle exec rspec
 
-* Deployment instructions
+4. **Run the code
+    ```bash
+    ruby run.rb
 
-* ...
+🚀 Features
+Handles empty strings
+
+Handles 1, 2, or more numbers (comma-separated)
+
+Supports newlines as delimiters
+
+Allows custom delimiters (e.g., //;\n1;2)
+
+Throws exceptions for negative numbers and lists all of them

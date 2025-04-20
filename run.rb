@@ -1,5 +1,3 @@
-# run.rb
-
 require_relative './lib/string_calculator'
 
 calc = StringCalculator.new
