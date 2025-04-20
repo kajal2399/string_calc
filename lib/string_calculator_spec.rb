@@ -11,5 +11,9 @@ RSpec.describe StringCalculator do
     it 'returns number itself when only one number is given' do
         expect(subject.add("5")).to eq(5)
     end
+
+    it 'returns sum of two numbers' do
+        expect(subject.add("1,2")).to eq(3)
+    end
   end
 end
